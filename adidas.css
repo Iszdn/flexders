@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   background-color: aliceblue; 
+}
+.navbar{
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 60px;
+    height: 60px;
+   
+}
+img{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+color: black;
+padding: 20px;
+}
+ul li{
+    list-style: none;
+    
+}
+.ular{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.button{
+    border-radius: 15px;
+    width: 120px;
+}
+.search{
+    padding: 20px;
+    display: flex;
+
+}
+.fa-heart{
+    padding: 7px;
+}
+.fa-bag-shopping{
+    padding: 7px;
+}
+
+.fa-user{
+    display: none;
+    padding: 7px;
+}
+.fa-bars{
+    display: none;
+    padding: 7px;
+}
+
+@media screen and (max-width:936px) {
+    .fa-user{
+        display: block;
+    }
+    .fa-bars{
+        display: block;
+    }
+    .button{
+        display: none;
+    }
+    .ular{
+        display: none;
+    }
+}
